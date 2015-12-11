@@ -13,6 +13,7 @@
 		501A4D261A9F47E40083034C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501A4D251A9F47E40083034C /* Images.xcassets */; };
 		501A4D291A9F47E50083034C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 501A4D271A9F47E50083034C /* LaunchScreen.xib */; };
 		501A4D351A9F47E50083034C /* MineSweeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A4D341A9F47E50083034C /* MineSweeperTests.swift */; };
+		501A4D411A9F48820083034C /* MineSweeperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A4D401A9F48820083034C /* MineSweeperModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		501A4D2E1A9F47E50083034C /* MineSweeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MineSweeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		501A4D331A9F47E50083034C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		501A4D341A9F47E50083034C /* MineSweeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSweeperTests.swift; sourceTree = "<group>"; };
+		501A4D401A9F48820083034C /* MineSweeperModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineSweeperModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				501A4D201A9F47E40083034C /* ViewController.swift */,
 				501A4D221A9F47E40083034C /* Main.storyboard */,
 				501A4D251A9F47E40083034C /* Images.xcassets */,
+				501A4D401A9F48820083034C /* MineSweeperModel.swift */,
 				501A4D271A9F47E50083034C /* LaunchScreen.xib */,
 				501A4D1C1A9F47E40083034C /* Supporting Files */,
 			);
@@ -156,6 +159,8 @@
 		501A4D111A9F47E30083034C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Noah Grumman";
 				TargetAttributes = {
@@ -212,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501A4D411A9F48820083034C /* MineSweeperModel.swift in Sources */,
 				501A4D211A9F47E40083034C /* ViewController.swift in Sources */,
 				501A4D1F1A9F47E40083034C /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +411,7 @@
 				501A4D3A1A9F47E50083034C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		501A4D3B1A9F47E50083034C /* Build configuration list for PBXNativeTarget "MineSweeperTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				501A4D3D1A9F47E50083034C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
